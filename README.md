@@ -1,6 +1,6 @@
-# VscodeConfig
+# VscodeConfig<br>
 
-設定
+設定<br>
 1.ファイル保存時に勝手に改行される
 　editor.formatOnsaveのチェックを外す
 2.vimのキーバインドで折り畳みが勝手に展開する
