@@ -10,3 +10,8 @@
 <br>
 # 設定(JSON)<br>
 settings.jsonファイル参照<br>
+<br>
+# キーボードショートカット<br>
+タブ移動<br>
+1.ctrl+pageup →　ctrl + left<br>
+2.ctrl+pagedown → ctrl + right<br>
