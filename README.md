@@ -18,4 +18,4 @@ settings.jsonファイル参照<br>
 ターミナルからエディタ移動<br>
 3.ctrl+1 →　ctrl+e<br>
 エディタからターミナル移動<br>
-4.ctrl+t
+4.ctrl+b →　space後t<br>
