@@ -15,3 +15,7 @@ settings.jsonファイル参照<br>
 タブ移動<br>
 1.ctrl+pageup →　ctrl + left<br>
 2.ctrl+pagedown → ctrl + right<br>
+ターミナルからエディタ移動<br>
+3.ctrl+1 →　ctrl+e<br>
+エディタからターミナル移動<br>
+4.ctrl+t
