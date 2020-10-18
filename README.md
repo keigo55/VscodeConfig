@@ -7,6 +7,10 @@
 　Vim:Foldfixのにチェックを入れる<br>
 3.最終行手前でスクロール<br>
 　editor.cursorSurroundingLinesに何行手前でスクロールするか入力<br>
+4.tabのスペース数変更
+　Editor:Tab Size 4<br>
+5.tabスペースの設定をどのファイルでも適応する
+　Detect Indentation<br>
 <br>
 # 設定(JSON)<br>
 settings.jsonファイル参照<br>
