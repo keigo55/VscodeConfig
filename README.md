@@ -21,5 +21,5 @@ settings.jsonファイル参照<br>
 2.ctrl+pagedown → ctrl + right<br>
 ターミナルからエディタ移動<br>
 3.ctrl+1 →　ctrl+e<br>
-エディタからターミナル移動<br>
+エクスプローラーの表示、非表示<br>
 4.ctrl+b →　space後t<br>
