@@ -1,0 +1,55 @@
+{
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "window.openFilesInNewWindow": "on",
+    "files.autoSave": "afterDelay",
+    //Editor設定
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.cursorSurroundingLines": 5,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.wordWrap": "on", //行末の折り返し有
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "boundary",
+    "window.zoomLevel": 0,
+    "editor.formatOnType": true,
+    "[cpp]": {
+        "editor.tabSize": 4,
+    },
+    //Vim設定
+    "vim.foldfix": true,
+    "vim.useSystemClipboard": true, //ヤンクとクリップボードの共有
+    "vim.hlsearch": true, //検索結果をハイライト
+    "vim.ignorecase": true, //検索時に大文字小文字無視
+    "vim.insertModeKeyBindings": [],
+    // ウィンドウ移動のキーバインドをCtrl+w → sに変更
+    "vim.normalModeKeyBindingsNonRecursive": [{
+            "before": ["s"],
+            "after": ["<C-w>"]
+        },
+    ],
+    //Spresense設定
+    "spresense.msys.path": "c:\\msys64",
+    "spresense.serial.port": "COM10",
+    //plantuml設定
+    "plantuml.commandArgs": [
+        "-Xmx2g",
+        "-DPLANTUML_LIMIT_SIZE=16384"
+    ],
+    "plantuml.render": "PlantUMLServer",
+    "plantuml.server": "http://www.plantuml.com/plantuml",
+    // Arduino
+    "arduino.path": "C:\\Program Files (x86)\\Arduino",
+    "arduino.commandPath": "arduino_debug.exe",
+    // C言語設定
+    "C_Cpp.default.compilerPath": "",
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "C_Cpp.updateChannel": "Insiders",
+    "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, BreakBeforeBraces: Attach, SpaceBeforeParens: Never, IndentWidth: 4 }",
+    //"C_Cpp.clang_format_style": "Google", //中括弧の自動改行停止
+    // C#
+    "csharpfixformat.style.braces.onSameLine": false,
+    // ターミナル設定
+    //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+    "editor.detectIndentation": false,
+}
