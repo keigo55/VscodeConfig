@@ -23,3 +23,9 @@ settings.jsonファイル参照<br>
 3.ctrl+1 →　ctrl+e<br>
 エクスプローラーの表示、非表示<br>
 4.ctrl+b →　space後t<br>
+
+よく使うショートカットキー<br>
+
+F12：参照元へジャンプ
+shift+F12：参照先へジャンプ
+F8：エラー箇所へジャンプ
