@@ -7,7 +7,7 @@
 | vimのキーバインドで折り畳みが勝手に展開する | Vim:Foldfixのにチェックを入れる |
 | 最終行手前でスクロール | editor.cursorSurroundingLinesに何行手前でスクロールするか入力 |
 | tabのスペース数変更 | Editor:Tab Size 4 |
-| tabスペースの設定をどのファイルでも適応する | Detect Indentationのチェックを外す |
+| tabスペースの設定をどのファイルでも適応する | Detect Indentationのチェックを外す |<br>
 <br>
 # 設定(JSON)<br>
 settings.jsonファイル参照<br>
