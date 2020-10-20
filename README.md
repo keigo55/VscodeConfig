@@ -16,15 +16,13 @@
 settings.jsonファイル参照<br>
 <br>
 # キーボードショートカット<br>
-タブ移動<br>
-1.ctrl+pageup →　ctrl + left<br>
-2.ctrl+pagedown → ctrl + right<br>
 ターミナルからエディタ移動<br>
 3.ctrl+1 →　ctrl+e<br>
-エクスプローラーの表示、非表示<br>
-4.ctrl+b →　space後t<br>
-
+<br>
 # よく使うショートカットキー<br>
 F12：参照元へジャンプ<br>
 shift+F12：参照先へジャンプ<br>
 F8：エラー箇所へジャンプ<br>
+ctrl+b：サイドバー表示、非表示<br> 
+ctrl+pageup：タブ移動<br>
+ctrl+pagedown：タブ移動<br>
