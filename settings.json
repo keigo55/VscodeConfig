@@ -12,6 +12,8 @@
     "editor.renderWhitespace": "boundary",
     "window.zoomLevel": 0,
     "editor.formatOnType": true,
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "Inconsolata,Consolas, 'Courier New', monospace",
     "[cpp]": {
         "editor.tabSize": 4,
     },
@@ -28,18 +30,18 @@
         },
     ],
     //Spresense設定
-    "spresense.msys.path": "c:\\msys64",
-    "spresense.serial.port": "COM10",
-    //plantuml設定
-    "plantuml.commandArgs": [
-        "-Xmx2g",
-        "-DPLANTUML_LIMIT_SIZE=16384"
-    ],
-    "plantuml.render": "PlantUMLServer",
-    "plantuml.server": "http://www.plantuml.com/plantuml",
-    // Arduino
-    "arduino.path": "C:\\Program Files (x86)\\Arduino",
-    "arduino.commandPath": "arduino_debug.exe",
+    //"spresense.msys.path": "c:\\msys64",
+    //"spresense.serial.port": "COM10",
+    ////plantuml設定
+    //"plantuml.commandArgs": [
+    //    "-Xmx2g",
+    //    "-DPLANTUML_LIMIT_SIZE=16384"
+    //],
+    //"plantuml.render": "PlantUMLServer",
+    //"plantuml.server": "http://www.plantuml.com/plantuml",
+    //// Arduino
+    //"arduino.path": "C:\\Program Files (x86)\\Arduino",
+    //"arduino.commandPath": "arduino_debug.exe",
     // C言語設定
     "C_Cpp.default.compilerPath": "",
     "C_Cpp.intelliSenseEngine": "Tag Parser",
@@ -50,6 +52,6 @@
     "csharpfixformat.style.braces.onSameLine": false,
     // ターミナル設定
     //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
-    "editor.detectIndentation": false,
+    //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+    "terminal.integrated.shell.windows": "C:\\cygwin64\\bin\\bash.exe",
 }
