@@ -9,4 +9,4 @@
 | ctrl+pageup | タブ移動 |
 | ctrl+pagedown | タブ移動 |
 | ctrl+e | エディタに移動 |
-| ctrl+@| ターミナル起動 |
+| ctrl+@| ターミナル起動(表示非表示切り替え) |
