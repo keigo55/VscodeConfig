@@ -7,7 +7,7 @@
 | F8 | エラー箇所へジャンプ |
 | ctrl+shift+f | フォルダ内検索 |
 | ctrl+t | サイドバー表示、非表示(元々ctrl+b) |
-| ctrl+pageup | タブ移動 |
-| ctrl+pagedown | タブ移動 |
+| ctrl+pageup or g t | タブ移動 |
+| ctrl+pagedown or g T | タブ移動 |
 | ctrl+e | エディタに移動 |
 | ctrl+@| ターミナル起動(表示非表示切り替え) |
