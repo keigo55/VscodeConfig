@@ -15,4 +15,4 @@
 | Remote-WSL | |
 | Spresense ||
 | vim ||
-| zenkaku| 全角スペースの可視化 |
+| zenkaku| 全角スペースの可視化(F1でenable zenkakuコマンドで有効にする) |
