@@ -70,7 +70,7 @@
     // ターミナル設定
     //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
-    "terminal.integrated.shell.windows": "C:\\cygwin64\\Cygwin.bat",
+    "terminal.integrated.shell.windows": "C:\\cygwin64\\bin\\bash.exe",
     "workbench.editor.enablePreview": false,
 
     // better_comments
