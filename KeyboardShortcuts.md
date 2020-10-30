@@ -3,4 +3,4 @@
 |:---|:---|
 | ctrl+1 | ctrl+e |
 | ctrl+b| ctrl+t|
-| 空欄 | ctrl+k |
+| "workbench.action.toggleMaximizedPanel" | ctrl+k |
