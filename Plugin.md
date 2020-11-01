@@ -9,7 +9,7 @@
 | C# FixFormat | |
 | C++ intellisense | 関数の参照を調べるために入れてる |
 | Cortex-Debug | デバック用　Spresenseインストール時に勝手に入る |
-| indent-rainbow | インシデントごとに色を付ける(errorインシデントの透明度を上げる) |
+| indent-rainbow | インシデントごとに色を付ける(設定からerrorインシデントの透明度を上げる) |
 | Japanese Language Pack ||
 | Python | |
 | Remote-WSL | |
