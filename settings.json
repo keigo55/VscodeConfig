@@ -14,19 +14,85 @@
     "window.zoomLevel": 0,
     "editor.formatOnType": true,
     "editor.detectIndentation": false,
-    "editor.fontFamily": "Inconsolata,Consolas, 'Courier New', monospace",
     "[cpp]": {
         "editor.tabSize": 4,
     },
 
-    //Vim設定
+    // ターミナル設定
+    //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+    //"terminal.integrated.shell.windows": "C:\\cygwin64\\Cygwin.bat",
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                // 1行コメントの色変更
+                "scope": "comment.line",
+                "settings": {
+                    "foreground": "#808080",
+                }
+            },
+            {
+                // ブロックコメントの色変更
+                "scope": "comment.block",
+                "settings": {
+                    "foreground": "#808080",
+                }
+            },
+            //{
+            //    // 数字の色変更
+            //    "scope": "constant.numeric",
+            //    "settings": {
+            //        "foreground": "#c47fbe",
+            //    }
+            //},
+            {
+                // データ型の色変更
+                "scope": "storage.type",
+                "settings": {
+                    "foreground": "#599c77",
+                }
+            },
+            {
+                // その他
+                "scope": "source",
+                "settings": {
+                    "foreground": "#cccccc",
+                }
+            },
+            {
+                // 演算子の色変更
+                "scope": "keyword.operator",
+                "settings": {
+                    "foreground": "#fdca5b",
+                }
+            },
+        ]
+    },
+
+    // workbench
+    "workbench.editor.enablePreview": false,
+    "workbench.colorCustomizations": {
+        // カーソル行の背景色
+        "editor.lineHighlightBackground": "#2A2A2A",
+        // アクティブtabにバーを入れる
+        "tab.activeBorder": "#00ff6a",
+        // 選択したハイライト
+        "editor.selectionBackground":"#303080",
+        // 選択したやつと同じ箇所をハイライト
+        "editor.selectionHighlightBackground":"#505050",
+    },
+    "editor.renderControlCharacters": false,
+
+
+    // 拡張機能 ##############################################################3
+        //Vim設定
     "vim.foldfix": true,
     "vim.useSystemClipboard": true, //ヤンクとクリップボードの共有
     "vim.hlsearch": true, //検索結果をハイライト
     "vim.ignorecase": true, //検索時に大文字小文字無視
     "vim.insertModeKeyBindings": [],
-
-    // ウィンドウ移動のキーバインド
+    // ウィンドウ移動のキーバインドをCtrl+w → sに変更
     "vim.normalModeKeyBindingsNonRecursive": [{
             "before": ["s"],
             "after": ["<C-w>"]
@@ -41,21 +107,21 @@
         },
     ],
 
+    // Arduino
+    "arduino.path": "C:\\Program Files (x86)\\Arduino",
+    "arduino.commandPath": "arduino_debug.exe",
+
     //Spresense設定
-    //"spresense.msys.path": "c:\\msys64",
-    //"spresense.serial.port": "COM10",
+    "spresense.msys.path": "c:\\msys64",
+    "spresense.serial.port": "COM10",
 
     //plantuml設定
-    //"plantuml.commandArgs": [
-    //    "-Xmx2g",
-    //    "-DPLANTUML_LIMIT_SIZE=16384"
-    //],
-    //"plantuml.render": "PlantUMLServer",
-    //"plantuml.server": "http://www.plantuml.com/plantuml",
-
-    // Arduino
-    //"arduino.path": "C:\\Program Files (x86)\\Arduino",
-    //"arduino.commandPath": "arduino_debug.exe",
+    "plantuml.commandArgs": [
+        "-Xmx2g",
+        "-DPLANTUML_LIMIT_SIZE=16384"
+    ],
+    "plantuml.render": "PlantUMLServer",
+    "plantuml.server": "http://www.plantuml.com/plantuml",
 
     // C言語設定
     "C_Cpp.default.compilerPath": "",
@@ -67,20 +133,6 @@
     // C#
     "csharpfixformat.style.braces.onSameLine": false,
 
-    // ターミナル設定
-    //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    //"terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
-    "terminal.integrated.shell.windows": "C:\\cygwin64\\Cygwin.bat",
-    "workbench.editor.enablePreview": false,
-
-    // better_comments
-    "better-comments.tags": [
-
-        {
-        "tag": "TODO",
-        "color": "#ff8c00",
-        "strikethrough": false,
-        "backgroundColor": "transparent"
-        },
-    ]
+    // indent_rainbow
+    "indentRainbow.errorColor": "rgba(128,32,32,0.07)",
 }
