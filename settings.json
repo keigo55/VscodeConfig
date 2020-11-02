@@ -64,7 +64,7 @@
                 // 演算子の色変更
                 "scope": "keyword.operator",
                 "settings": {
-                    "foreground": "#fdca5b",
+                    "foreground": "##c7a04c",
                 }
             },
         ]
