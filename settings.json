@@ -11,7 +11,7 @@
     "editor.wordWrap": "on", //行末の折り返し有
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "boundary",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 1,
     "editor.formatOnType": true,
     "editor.detectIndentation": false,
     "[cpp]": {
@@ -24,49 +24,40 @@
     //"terminal.integrated.shell.windows": "C:\\cygwin64\\Cygwin.bat",
 
     "editor.tokenColorCustomizations": {
+        "comments":"#898880",
         "textMateRules": [
-            {
-                // 1行コメントの色変更
-                "scope": "comment.line",
-                "settings": {
-                    "foreground": "#808080",
-                }
-            },
-            {
-                // ブロックコメントの色変更
-                "scope": "comment.block",
-                "settings": {
-                    "foreground": "#808080",
-                }
-            },
-            //{
-            //    // 数字の色変更
+            //{   // 数字の色変更
             //    "scope": "constant.numeric",
-            //    "settings": {
-            //        "foreground": "#c47fbe",
-            //    }
+            //    "settings": {"foreground": "#c47fbe"}
             //},
-            {
-                // データ型の色変更
+            {   // データ型の色変更
                 "scope": "storage.type",
-                "settings": {
-                    "foreground": "#599c77",
-                }
+                "settings": {"foreground": "#3cb37a"} // コバルトグリーン
             },
-            {
-                // その他
+            {   // その他
                 "scope": "source",
-                "settings": {
-                    "foreground": "#cccccc",
-                }
+                "settings": {"foreground": "#d4d9db"} // リードグレイ
             },
-            {
-                // 演算子の色変更
+            {   // 演算子の色変更
                 "scope": "keyword.operator",
-                "settings": {
-                    "foreground": "##c7a04c",
-                }
+                "settings": {"foreground": "#fcc800"} // クロムイエロー
             },
+            {   // 演算子の色変更
+                "scope": "support",
+                "settings": {"foreground": "#fc0000"} // クロムイエロー
+            },
+            //{   // 関数、引数の色変更
+            //    "scope": "variable.",
+            //    "settings": {"foreground": "#f11414"}
+            //},
+            //{   // ifやwhileの色変更
+            //    "scope": "keyword.control",
+            //    "settings": {"foreground": "#c7a04c"}
+            //},
+            //{   // constやstaticなどの色変更
+            //    "scope": "storage.modifier",
+            //    "settings": {"foreground": "#ff0000"}
+            //},
         ]
     },
 
@@ -74,13 +65,15 @@
     "workbench.editor.enablePreview": false,
     "workbench.colorCustomizations": {
         // カーソル行の背景色
-        "editor.lineHighlightBackground": "#2A2A2A",
+        //"editor.lineHighlightBackground": "#1A1A1A",
+        // 背景色
+        "editor.background": "#1F1F1F",
         // アクティブtabにバーを入れる
         "tab.activeBorder": "#00ff6a",
         // 選択したハイライト
         "editor.selectionBackground":"#303080",
         // 選択したやつと同じ箇所をハイライト
-        "editor.selectionHighlightBackground":"#505050",
+        "editor.selectionHighlightBackground":"#404040",
     },
     "editor.renderControlCharacters": false,
 
@@ -134,5 +127,11 @@
     "csharpfixformat.style.braces.onSameLine": false,
 
     // indent_rainbow
-    "indentRainbow.errorColor": "rgba(128,32,32,0.07)",
+    "indentRainbow.errorColor": "rgba(128,32,32,0.03)",
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.03)",
+        "rgba(127,255,127,0.03)"
+        //"rgba(255,127,255,0.03)",
+        //"rgba(79,236,236,0.03kkk)"
+    ],
 }
