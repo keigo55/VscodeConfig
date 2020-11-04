@@ -74,6 +74,8 @@
         "editor.selectionBackground":"#303080",
         // 選択したやつと同じ箇所をハイライト
         "editor.selectionHighlightBackground":"#404040",
+        // 選択したやつと同じ箇所をの淵だけハイライト
+        "editor.selectionHighlightBorder":"#696969"
     },
     "editor.renderControlCharacters": false,
 
