@@ -76,6 +76,8 @@
         //"editor.selectionHighlightBackground":"#404040",
         // 選択したやつと同じ箇所をの淵だけハイライト
         "editor.selectionHighlightBorder":"#696969"
+        // ステータスバー色変更
+        "statusBar.background": "#2a362d",
     },
     "editor.renderControlCharacters": false,
 
@@ -129,7 +131,7 @@
     "csharpfixformat.style.braces.onSameLine": false,
 
     // indent_rainbow
-    "indentRainbow.errorColor": "rgba(128,32,32,0.03)",
+    "indentRainbow.errorColor": "rgba(255,127,255,0.03)",
     "indentRainbow.colors": [
         "rgba(255,255,64,0.03)",
         "rgba(127,255,127,0.03)"
