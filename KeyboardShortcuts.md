@@ -6,3 +6,4 @@
 | "activity bar"の表示非表示 | ctrl+j |
 | "outline"に移動 | ctrl+n |
 | "workbench.action.toggleMaximizedPanel" | ctrl+k |
+| bookmark ctrl + alt + l,j,k | ctrl + alt j,k,b |
