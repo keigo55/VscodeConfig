@@ -7,4 +7,5 @@
 | "outline"に移動 | ctrl+o |
 | "workbench.action.toggleMaximizedPanel" | ctrl+k |
 | bookmark ctrl + alt + l,j,k | ctrl + alt j,k,b |
+| alt + f12 | f12 |
 
