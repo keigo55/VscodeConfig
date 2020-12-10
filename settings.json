@@ -62,6 +62,7 @@
     },
 
     // workbench
+    "workbench.editor.highlightModifiedTabs": true, // 未保存の時、ハイライトされる
     "workbench.editor.enablePreview": false,
     "workbench.colorCustomizations": {
         // カーソル行の背景色
