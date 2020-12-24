@@ -96,19 +96,19 @@
             "after": ["<C-w>"]
         },
         {
-            "before": ["K"],
+            "before": ["L"],
             "after": ["g","t"]
         },
         {
-            "before": ["J"],
+            "before": ["H"],
             "after": ["g","T"]
         },
         {
-            "before": ["H"],
+            "before": ["J"],
             "after": ["L"]
         },
         {
-            "before": ["L"],
+            "before": ["K"],
             "after": ["H"]
         },
         {
