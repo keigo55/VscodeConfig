@@ -7,3 +7,4 @@
 | tabのスペース数変更                         | Editor:Tab Size 4 |
 | tabスペースの設定をどのファイルでも適応する  | Detect Indentationのチェックを外す |
 | F12とかで新しいタブで開くようにする          | workbench.editor.enablePreviewのチェックを外す |
+| 関数と括弧の間にスペースを入れる  　　        | Format: Insert Space Before Function Parenthesisにチェックを入れる |
