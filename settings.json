@@ -2,7 +2,7 @@
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "window.openFilesInNewWindow": "on",
-    "files.autoSave": "afterDelay",
+    "files.autoSave": "off",
 
     //Editor設定
     "editor.acceptSuggestionOnEnter": "off",
@@ -11,11 +11,10 @@
     "editor.wordWrap": "on", //行末の折り返し有
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "boundary",
-    "window.zoomLevel": 1,
     "editor.formatOnType": true,
     "editor.detectIndentation": false,
     "[cpp]": {
-        "editor.tabSize": 4,
+        "editor.tabSize": 2,
     },
 
     // ターミナル設定
@@ -30,10 +29,10 @@
             //    "scope": "constant.numeric",
             //    "settings": {"foreground": "#c47fbe"}
             //},
-            {   // データ型の色変更
-                "scope": "storage.type",
-                "settings": {"foreground": "#3cb37a"} // コバルトグリーン
-            },
+            //{   // データ型の色変更
+            //    "scope": "storage.type",
+            //    "settings": {"foreground": "#3cb37a"} // コバルトグリーン
+            //},
             {   // その他
                 "scope": "source",
                 "settings": {"foreground": "#d4d9db"} // リードグレイ
@@ -60,8 +59,6 @@
             //},
         ]
     },
-
-    // workbench
     "workbench.editor.highlightModifiedTabs": true, // 未保存の時、ハイライトされる
     "workbench.editor.enablePreview": false,
     "workbench.colorCustomizations": {
@@ -76,7 +73,7 @@
         // 選択したやつと同じ箇所をハイライト
         //"editor.selectionHighlightBackground":"#404040",
         // 選択したやつと同じ箇所をの淵だけハイライト
-        "editor.selectionHighlightBorder":"#696969"
+        "editor.selectionHighlightBorder":"#696969",
         // ステータスバー色変更
         "statusBar.background": "#2a362d",
     },
@@ -90,26 +87,28 @@
     "vim.hlsearch": true, //検索結果をハイライト
     "vim.ignorecase": true, //検索時に大文字小文字無視
     "vim.insertModeKeyBindings": [],
-    // ウィンドウ移動のキーバインドをCtrl+w → sに変更
+    // ウィンドウ移動のキーバインドを変更
     "vim.normalModeKeyBindingsNonRecursive": [{
             "before": ["s"],
             "after": ["<C-w>"]
         },
-        {
-            "before": ["L"],
-            "after": ["g","t"]
-        },
-        {
-            "before": ["H"],
-            "after": ["g","T"]
-        },
+        // コード以外の設定画面などでタブ移動する時にvimで設定していると使えないので、
+        // vscodeのショートカットで設定している
+        //{
+        //    "before": ["L"],
+        //    "after": ["g","t"] // タブ移動
+        //},
+        //{
+        //    "before": ["H"],
+        //    "after": ["g","T"] // タブ移動
+        //},
         {
             "before": ["J"],
-            "after": ["L"]
+            "after": ["<C-d>"]
         },
         {
             "before": ["K"],
-            "after": ["H"]
+            "after": ["<C-u>"]
         },
         {
             "before": ["x"],
@@ -141,18 +140,28 @@
     "C_Cpp.default.compilerPath": "",
     "C_Cpp.intelliSenseEngine": "Tag Parser",
     "C_Cpp.updateChannel": "Insiders",
-    "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, BreakBeforeBraces: Attach, SpaceBeforeParens: Never, IndentWidth: 4 }",
+    "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, BreakBeforeBraces: Attach, SpaceBeforeParens: Never, IndentWidth: 2 }",
     //"C_Cpp.clang_format_style": "Google", //中括弧の自動改行停止
 
     // C#
     "csharpfixformat.style.braces.onSameLine": false,
 
     // indent_rainbow
-    "indentRainbow.errorColor": "rgba(255,127,255,0.03)",
+    "indentRainbow.errorColor": "rgba(128,32,32,0.03)",
     "indentRainbow.colors": [
         "rgba(255,255,64,0.03)",
         "rgba(127,255,127,0.03)"
         //"rgba(255,127,255,0.03)",
         //"rgba(79,236,236,0.03kkk)"
     ],
+    "window.zoomLevel": 1,
+    "editor.tabSize": 2,
+    "[yaml]": {
+
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2,
+      "editor.autoIndent": "advanced"
+    },
+    "security.workspace.trust.enabled": false,
+    "workbench.activityBar.visible": false,
 }
