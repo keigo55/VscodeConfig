@@ -92,16 +92,14 @@
             "before": ["s"],
             "after": ["<C-w>"]
         },
-        // コード以外の設定画面などでタブ移動する時にvimで設定していると使えないので、
-        // vscodeのショートカットで設定している
-        //{
-        //    "before": ["L"],
-        //    "after": ["g","t"] // タブ移動
-        //},
-        //{
-        //    "before": ["H"],
-        //    "after": ["g","T"] // タブ移動
-        //},
+        {
+            "before": ["L"],
+            "after": ["g","t"] // 次のタブ移動
+        },
+        {
+            "before": ["H"],
+            "after": ["g","T"] // 前のタブ移動
+        },
         {
             "before": ["J"],
             "after": ["<C-d>"]
@@ -154,7 +152,6 @@
         //"rgba(255,127,255,0.03)",
         //"rgba(79,236,236,0.03kkk)"
     ],
-    "window.zoomLevel": 1,
     "editor.tabSize": 2,
     "[yaml]": {
 
@@ -164,4 +161,5 @@
     },
     "security.workspace.trust.enabled": false,
     "workbench.activityBar.visible": false,
+    "workbench.editor.wrapTabs": true,
 }
