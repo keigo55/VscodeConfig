@@ -14,7 +14,7 @@ set clipboard=unnamed
 nnoremap d "_d
 nnoremap x "_x
 
-" 折り畳んだコーkkドを跨ぐとき展開しない
+" 折り畳んだコードを跨ぐとき展開しない
 nmap j gj
 nmap k gk
 
