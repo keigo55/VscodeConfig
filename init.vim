@@ -1,5 +1,5 @@
 "以下VScode用の設定
-"
+
 " ノーマルモード時 変更後のキー:修正前のキー
 nmap s <C-w>
 nmap <S-l> gt
@@ -10,13 +10,13 @@ nmap <S-k> <C-u>
 " クリップボードを有効にする
 set clipboard=unnamed
 
-" やんくさせない
+" やんくさせない(nmapで設定すると固まる)
 nnoremap d "_d
 nnoremap x "_x
 
-" 折り畳んだコードを跨ぐとき展開しない
-nnoremap j :call VSCodeCall('cursorDown')<CR>
-nnoremap k :call VSCodeCall('cursorUp')<CR>
+" 折り畳んだコーkkドを跨ぐとき展開しない
+nmap j gj
+nmap k gk
 
 " 折り畳みをする
 nnoremap <silent> za <Cmd>call VSCodeNotify('editor.toggleFold')<CR>
